@@ -1,0 +1,118 @@
+:root {
+    --team-builder-color: hsl(0, 78%, 62%);
+    --supervisor-color:hsl(180, 62%, 55%);
+    --karma-color: hsl(34, 97%, 64%);
+    --calculator-color: hsl(212, 86%, 64%);
+}
+
+body {
+    min-height:100vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container {
+    height: 100vh;
+    max-width: 1440px;
+}
+
+.container .infos {
+    text-align:center;
+
+}
+
+.container .infos h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+    letter-spacing: 2px;
+    margin-top: 1rem;
+}
+
+.container .infos strong {
+    font-size: 3rem;
+    font-weight: 700;
+    color: hsl(234, 12%, 34%);
+    letter-spacing: 2px;
+}
+
+.container .infos p {
+    color: hsl(229, 6%, 66%);
+    max-width: 60%;
+    margin: 2rem auto;
+}
+
+.cards {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cards .card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 1.5rem;
+    background-color: #fff;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.384);
+}
+
+.cards .card strong {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 10px;
+}
+
+.cards .card p {
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.cards .card .image-card {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cards .card .image-card img {
+    width: 50px;
+    height: 50px;
+}
+
+.supervisor {
+  border-top: 8px solid var(--supervisor-color);
+}
+
+.team-builder {
+    border-top: 8px solid var(--team-builder-color);
+}
+
+.karma {
+    border-top: 8px solid var(--karma-color);
+}
+
+.calculator {
+    border-top: 8px solid var(--calculator-color);
+}
+
+.attribution {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.attribution a {
+    color: hsl(234, 12%, 34%);
+    font-weight: 700
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
